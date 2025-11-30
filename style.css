@@ -541,3 +541,94 @@ header {
         display: none;
     }
 }
+/* Main container padding adjustments */
+@media (min-width: 640px) {
+    .maincontainer {
+        padding: 1.5rem 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .maincontainer {
+        padding: 5rem 2rem 2rem;
+    }
+
+    /* Hero section layout */
+    .hero-content {
+        flex-direction: row;
+        text-align: left;
+        padding: 5rem 0 2rem;
+    }
+
+    /* Interests grid 2 columns */
+    .interests-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Skills grid 2 columns */
+    .cyber-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Main nav desktop styles */
+    .main-nav {
+        position: static;
+        height: auto;
+        background: none;
+        flex-direction: row;
+        transform: none;
+        padding-top: 0;
+        display: flex !important;
+        width: auto;
+        overflow-y: visible;
+    }
+
+    .main-nav a {
+        font-size: 1rem;
+        border-bottom: none;
+        width: auto;
+    }
+
+    /* Show main nav for desktop */
+    .main-nav {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .main-nav a:not(.nav-hire) {
+        color: rgba(223, 18, 18, 0.789);
+        padding: 0.5rem 0;
+        position: relative;
+        transition: color 0.3s;
+    }
+
+    .main-nav a:not(.nav-hire):hover {
+        color: red;
+    }
+
+    /* Hide mobile menu button on desktop */
+    .mobile-menu-button {
+        display: none;
+    }
+
+    /* Hero text font */
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+/* Projects grid for tablets and above */
+@media (min-width: 768px) {
+    #projects-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Stats grid adjustment */
+@media (min-width: 640px) {
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

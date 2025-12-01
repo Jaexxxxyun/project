@@ -99,7 +99,6 @@ main section {
     max-width: 32rem;
     line-height: 1.6;
 }
-
 .profile-image-container {
     width: 500px;
     height: 500px;
@@ -110,7 +109,6 @@ main section {
     flex-shrink: 0;
     transition: transform 0.5s ease;
 }
-
 .profile-image-container:hover {
     transform: scale(1.05) rotate(1deg);
 }
@@ -121,7 +119,6 @@ main section {
     object-fit: cover;
     opacity: 1;
 }
-
 .button-group {
     display: flex;
     flex-direction: column;
@@ -370,3 +367,4 @@ footer h3 {
     color: rgb(218, 20, 20);
     margin-bottom: 0.5rem;
 }
+

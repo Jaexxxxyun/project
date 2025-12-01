@@ -224,7 +224,7 @@ header {
 }
 
 .highlight {
-    color: black;
+    color: white;
     font-family: 'Courier New', monospace;
     font-weight: bold;
 }
@@ -417,6 +417,7 @@ footer h3 {
         height: 400px;
     }
 }
+
 
 
 

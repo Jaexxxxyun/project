@@ -377,3 +377,44 @@ footer h3 {
     color: rgb(218, 20, 20);
     margin-bottom: 0.5rem;
 }
+
+/* ==== MOBILE FIX BROOOO ==== */
+@media (max-width: 480px) {
+
+    .main-nav {
+        top: 0;
+        height: auto;
+        padding: 1rem 0;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .profile-image-container {
+        width: 280px;
+        height: 280px;
+    }
+
+    .home-text-content > p {
+        font-size: 1rem;
+    }
+
+    #projects-list {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-container {
+        padding: 1.5rem;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+}

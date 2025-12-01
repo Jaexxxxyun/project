@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    background-image: url('../Images/PIC7.jpg');
+    background-image: url('PIC7.jpg');
 }
 
 body::before {
@@ -541,3 +541,4 @@ header {
         display: none;
     }
 }
+

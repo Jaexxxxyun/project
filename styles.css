@@ -98,8 +98,8 @@ main section {
 }
 
 .profile-image-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid rgba(255, 0, 0, 0.734);
@@ -376,6 +376,7 @@ footer h3 {
     color: rgb(218, 20, 20);
     margin-bottom: 0.5rem;
 }
+
 
 
 

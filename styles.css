@@ -144,7 +144,7 @@ main section {
     font-weight: 600;
     text-align: center;
     cursor: pointer;
-    display: inline-block;
+    display: flex;
     transition: all 0.3s;
     min-width: 160px;
 }
@@ -381,3 +381,4 @@ footer h3 {
     color: rgb(218, 20, 20);
     margin-bottom: 0.5rem;
 }
+
